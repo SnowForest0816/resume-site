@@ -1,0 +1,132 @@
+.App {
+  background-color: #888;
+  margin-bottom: 20px;
+  height: auto;
+  padding: 20px 0 20px 0;
+}
+
+input {
+  background-color: transparent;
+  padding: 5px;
+  border: none;
+  color: #CCC;
+}
+
+input:focus {
+  outline: none;
+  background-color: black;
+  opacity: 0.2;
+}
+
+.container {
+  width: 595px;
+  height: 842px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.title {
+  padding-top: 10px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.label {
+  display: flex;
+  align-items: center;
+}
+
+.personal_info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.personal_info-right {
+  padding-top: 20px;
+  padding-right: 20px;
+}
+
+.personal_info-img {
+  padding-top: 20px;
+  padding-right: 50px;
+}
+
+.name {
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+.name > input {
+  background-color: transparent;
+  padding: 5px;
+  border: none;
+  color: #CCC;
+  font-size: 30px;
+  width: 100px;
+}
+
+.name > input:focus {
+  outline: none;
+  background-color: black;
+  opacity: 0.2;
+}
+
+.job {
+  padding-left: 30px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+.job > input {
+  outline: none;
+  border: none;
+  background-color: #CCC;
+}
+
+.info {
+  padding-left: 30px;
+  padding-top: 5px;
+}
+
+.info_element {
+  padding-bottom: 5px;
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.line {
+  border: 1px solid black;
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.social_links {
+  padding-left: 30px;
+}
+
+.experiences {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.experience_btn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.experience_role {
+  display: flex;
+  justify-content: space-between;
+}
+
+.experience_role > div > input {
+  width: 100px;
+}
