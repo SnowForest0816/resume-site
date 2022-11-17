@@ -13,7 +13,7 @@ function Experience({experience, addExperience, removeExperience, updateExperien
       _id: experience._id,
       actualJob: `${jobValue}`
     })
-  }, [jobValue]);
+  }, [jobValue, experience._id, updateExperience]);
 
   function handleJobUpdate (e) {
     setJobValue(e.target.value);

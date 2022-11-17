@@ -16,7 +16,7 @@ function SocialLink({link, addLink, removeLink, updateLink}) {
       _id: link._id,
       actualLink: `https://${siteValue.toLowerCase()}/${name}`
     })
-  }, [name, siteValue]);
+  }, [name, siteValue, link._id, updateLink]);
 
   function handleSiteUpdate (e) {
     setSiteValue(e.target.value);

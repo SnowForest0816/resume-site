@@ -79,7 +79,7 @@ function App() {
     }
 
     setPageContents(pages); 
-  }, [socialLinks, experiences])
+  }, [socialLinks, status, experiences])
 
   function getY (id, tempY = 0, tempH = 0) {
     const element = document.getElementById(id);

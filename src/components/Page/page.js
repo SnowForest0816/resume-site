@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React from 'react';
 
 import Header from '../Header/header';
 import Experience from '../Experience/experiences';
